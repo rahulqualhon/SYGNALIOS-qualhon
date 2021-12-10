@@ -79,7 +79,7 @@ extension TrackersListViewController: CBCentralManagerDelegate, CBPeripheralDele
         print("Distance --- \(peripheral.name ?? "")")// Noisefit Active
        let namee = peripheral.name ?? ""
         if isGasSaved { // Colorfit Pro 2 //\(deviceList?.gasName ?? "")
-        if peripheral.name != nil && namee.contains("Noisefit Active") {
+        if peripheral.name != nil && namee.contains("\(deviceList?.gasName ?? "")") {
             name = peripheral.name ?? ""
            //pow(10, ((-56-Double(rssi))/(10*2)))*3.2808
             let distance =  pow(10.0,((abs((RSSI as AnyObject).doubleValue)-80)/(10*4.3)))
