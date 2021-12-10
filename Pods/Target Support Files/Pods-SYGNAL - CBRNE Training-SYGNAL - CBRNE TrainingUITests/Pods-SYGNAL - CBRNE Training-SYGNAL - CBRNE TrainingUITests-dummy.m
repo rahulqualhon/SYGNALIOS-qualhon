@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_SYGNAL___CBRNE_Training_SYGNAL___CBRNE_TrainingUITests : NSObject
+@end
+@implementation PodsDummy_Pods_SYGNAL___CBRNE_Training_SYGNAL___CBRNE_TrainingUITests
+@end

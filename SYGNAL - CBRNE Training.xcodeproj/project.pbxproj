@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5292D28DE3EE64417E3C8D01 /* Pods_SYGNAL___CBRNE_Training_SYGNAL___CBRNE_TrainingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58893A55C4E062622906FA4 /* Pods_SYGNAL___CBRNE_Training_SYGNAL___CBRNE_TrainingUITests.framework */; };
+		751F5F432EF28AD042C5BB7A /* Pods_SYGNAL___CBRNE_TrainingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1C6FBADE951C7BB7D3E6D0 /* Pods_SYGNAL___CBRNE_TrainingTests.framework */; };
+		814152EC275745310039AFD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814152EB275745310039AFD4 /* AppDelegate.swift */; };
+		814152EE275745310039AFD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814152ED275745310039AFD4 /* SceneDelegate.swift */; };
+		814152F3275745310039AFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814152F1275745310039AFD4 /* Main.storyboard */; };
+		814152F5275745320039AFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814152F4275745320039AFD4 /* Assets.xcassets */; };
+		814152F8275745320039AFD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814152F6275745320039AFD4 /* LaunchScreen.storyboard */; };
+		81415303275745320039AFD4 /* SYGNAL___CBRNE_TrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81415302275745320039AFD4 /* SYGNAL___CBRNE_TrainingTests.swift */; };
+		8141530E275745320039AFD4 /* SYGNAL___CBRNE_TrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141530D275745320039AFD4 /* SYGNAL___CBRNE_TrainingUITests.swift */; };
+		8141531C275749E50039AFD4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141531B275749E50039AFD4 /* HomeViewController.swift */; };
+		8141531E27574E290039AFD4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141531D27574E290039AFD4 /* Extension.swift */; };
+		814153202757562B0039AFD4 /* TrackersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141531F2757562B0039AFD4 /* TrackersListViewController.swift */; };
+		81415323275756580039AFD4 /* AddGasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81415322275756580039AFD4 /* AddGasViewController.swift */; };
+		81415326275759730039AFD4 /* TrackerListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81415324275759730039AFD4 /* TrackerListTableCell.swift */; };
+		81415327275759730039AFD4 /* TrackerListTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81415325275759730039AFD4 /* TrackerListTableCell.xib */; };
+		8141532A2757862C0039AFD4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814153292757862C0039AFD4 /* CoreBluetooth.framework */; };
+		8141532C2757A4E90039AFD4 /* BluetoothListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141532B2757A4E90039AFD4 /* BluetoothListModel.swift */; };
+		816AA4172761E2DD00605290 /* DevicesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816AA4162761E2DD00605290 /* DevicesModel.swift */; };
+		A40B341A2135C3DAC30723B0 /* Pods_SYGNAL___CBRNE_Training.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A0008F04C0D9309FFFB7DA /* Pods_SYGNAL___CBRNE_Training.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		814152FF275745320039AFD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 814152E0275745310039AFD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 814152E7275745310039AFD4;
+			remoteInfo = "SYGNAL - CBRNE Training";
+		};
+		8141530A275745320039AFD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 814152E0275745310039AFD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 814152E7275745310039AFD4;
+			remoteInfo = "SYGNAL - CBRNE Training";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB75E01CAB3FDE642830021 /* Pods-SYGNAL - CBRNE Training.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYGNAL - CBRNE Training.release.xcconfig"; path = "Target Support Files/Pods-SYGNAL - CBRNE Training/Pods-SYGNAL - CBRNE Training.release.xcconfig"; sourceTree = "<group>"; };
+		25A0008F04C0D9309FFFB7DA /* Pods_SYGNAL___CBRNE_Training.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_SYGNAL___CBRNE_Training.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1C6FBADE951C7BB7D3E6D0 /* Pods_SYGNAL___CBRNE_TrainingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_SYGNAL___CBRNE_TrainingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D831A1FF3F9CD65A77F2108 /* Pods-SYGNAL - CBRNE TrainingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYGNAL - CBRNE TrainingTests.debug.xcconfig"; path = "Target Support Files/Pods-SYGNAL - CBRNE TrainingTests/Pods-SYGNAL - CBRNE TrainingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		814152E8275745310039AFD4 /* SYGNAL - CBRNE Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SYGNAL - CBRNE Training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814152EB275745310039AFD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		814152ED275745310039AFD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		814152F2275745310039AFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		814152F4275745320039AFD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		814152F7275745320039AFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		814152F9275745320039AFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814152FE275745320039AFD4 /* SYGNAL - CBRNE TrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SYGNAL - CBRNE TrainingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81415302275745320039AFD4 /* SYGNAL___CBRNE_TrainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SYGNAL___CBRNE_TrainingTests.swift"; sourceTree = "<group>"; };
+		81415304275745320039AFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81415309275745320039AFD4 /* SYGNAL - CBRNE TrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SYGNAL - CBRNE TrainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8141530D275745320039AFD4 /* SYGNAL___CBRNE_TrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SYGNAL___CBRNE_TrainingUITests.swift"; sourceTree = "<group>"; };
+		8141530F275745320039AFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8141531B275749E50039AFD4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8141531D27574E290039AFD4 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8141531F2757562B0039AFD4 /* TrackersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackersListViewController.swift; sourceTree = "<group>"; };
+		81415322275756580039AFD4 /* AddGasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGasViewController.swift; sourceTree = "<group>"; };
+		81415324275759730039AFD4 /* TrackerListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerListTableCell.swift; sourceTree = "<group>"; };
+		81415325275759730039AFD4 /* TrackerListTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackerListTableCell.xib; sourceTree = "<group>"; };
+		814153292757862C0039AFD4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8141532B2757A4E90039AFD4 /* BluetoothListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothListModel.swift; sourceTree = "<group>"; };
+		816AA4162761E2DD00605290 /* DevicesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesModel.swift; sourceTree = "<group>"; };
+		8262E6F61369BD57C8E3C521 /* Pods-SYGNAL - CBRNE Training.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYGNAL - CBRNE Training.debug.xcconfig"; path = "Target Support Files/Pods-SYGNAL - CBRNE Training/Pods-SYGNAL - CBRNE Training.debug.xcconfig"; sourceTree = "<group>"; };
+		A9A9D8CA3B3924743BB10069 /* Pods-SYGNAL - CBRNE TrainingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYGNAL - CBRNE TrainingTests.release.xcconfig"; path = "Target Support Files/Pods-SYGNAL - CBRNE TrainingTests/Pods-SYGNAL - CBRNE TrainingTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF928EFA011569E1F9BF6EDD /* Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests.debug.xcconfig"; path = "Target Support Files/Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests/Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D58893A55C4E062622906FA4 /* Pods_SYGNAL___CBRNE_Training_SYGNAL___CBRNE_TrainingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_SYGNAL___CBRNE_Training_SYGNAL___CBRNE_TrainingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6E3DC153E98EF03D8CA0D0 /* Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests.release.xcconfig"; path = "Target Support Files/Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests/Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		814152E5275745310039AFD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8141532A2757862C0039AFD4 /* CoreBluetooth.framework in Frameworks */,
+				A40B341A2135C3DAC30723B0 /* Pods_SYGNAL___CBRNE_Training.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814152FB275745320039AFD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751F5F432EF28AD042C5BB7A /* Pods_SYGNAL___CBRNE_TrainingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81415306275745320039AFD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5292D28DE3EE64417E3C8D01 /* Pods_SYGNAL___CBRNE_Training_SYGNAL___CBRNE_TrainingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		814152DF275745310039AFD4 = {
+			isa = PBXGroup;
+			children = (
+				814152EA275745310039AFD4 /* SYGNAL - CBRNE Training */,
+				81415301275745320039AFD4 /* SYGNAL - CBRNE TrainingTests */,
+				8141530C275745320039AFD4 /* SYGNAL - CBRNE TrainingUITests */,
+				814152E9275745310039AFD4 /* Products */,
+				C4D48F8FA1FF629576F446AD /* Pods */,
+				D1D3D96966C64EC81C079F07 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		814152E9275745310039AFD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				814152E8275745310039AFD4 /* SYGNAL - CBRNE Training.app */,
+				814152FE275745320039AFD4 /* SYGNAL - CBRNE TrainingTests.xctest */,
+				81415309275745320039AFD4 /* SYGNAL - CBRNE TrainingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		814152EA275745310039AFD4 /* SYGNAL - CBRNE Training */ = {
+			isa = PBXGroup;
+			children = (
+				816AA4152761E2CD00605290 /* models */,
+				81415328275759760039AFD4 /* TableCells */,
+				81415321275756310039AFD4 /* viewControllers */,
+				814152EB275745310039AFD4 /* AppDelegate.swift */,
+				814152ED275745310039AFD4 /* SceneDelegate.swift */,
+				8141531D27574E290039AFD4 /* Extension.swift */,
+				814152F1275745310039AFD4 /* Main.storyboard */,
+				814152F4275745320039AFD4 /* Assets.xcassets */,
+				814152F6275745320039AFD4 /* LaunchScreen.storyboard */,
+				814152F9275745320039AFD4 /* Info.plist */,
+				8141532B2757A4E90039AFD4 /* BluetoothListModel.swift */,
+			);
+			path = "SYGNAL - CBRNE Training";
+			sourceTree = "<group>";
+		};
+		81415301275745320039AFD4 /* SYGNAL - CBRNE TrainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				81415302275745320039AFD4 /* SYGNAL___CBRNE_TrainingTests.swift */,
+				81415304275745320039AFD4 /* Info.plist */,
+			);
+			path = "SYGNAL - CBRNE TrainingTests";
+			sourceTree = "<group>";
+		};
+		8141530C275745320039AFD4 /* SYGNAL - CBRNE TrainingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8141530D275745320039AFD4 /* SYGNAL___CBRNE_TrainingUITests.swift */,
+				8141530F275745320039AFD4 /* Info.plist */,
+			);
+			path = "SYGNAL - CBRNE TrainingUITests";
+			sourceTree = "<group>";
+		};
+		81415321275756310039AFD4 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8141531B275749E50039AFD4 /* HomeViewController.swift */,
+				8141531F2757562B0039AFD4 /* TrackersListViewController.swift */,
+				81415322275756580039AFD4 /* AddGasViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		81415328275759760039AFD4 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				81415324275759730039AFD4 /* TrackerListTableCell.swift */,
+				81415325275759730039AFD4 /* TrackerListTableCell.xib */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		816AA4152761E2CD00605290 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				816AA4162761E2DD00605290 /* DevicesModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		C4D48F8FA1FF629576F446AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8262E6F61369BD57C8E3C521 /* Pods-SYGNAL - CBRNE Training.debug.xcconfig */,
+				0DB75E01CAB3FDE642830021 /* Pods-SYGNAL - CBRNE Training.release.xcconfig */,
+				CF928EFA011569E1F9BF6EDD /* Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests.debug.xcconfig */,
+				DE6E3DC153E98EF03D8CA0D0 /* Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests.release.xcconfig */,
+				6D831A1FF3F9CD65A77F2108 /* Pods-SYGNAL - CBRNE TrainingTests.debug.xcconfig */,
+				A9A9D8CA3B3924743BB10069 /* Pods-SYGNAL - CBRNE TrainingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1D3D96966C64EC81C079F07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				814153292757862C0039AFD4 /* CoreBluetooth.framework */,
+				25A0008F04C0D9309FFFB7DA /* Pods_SYGNAL___CBRNE_Training.framework */,
+				D58893A55C4E062622906FA4 /* Pods_SYGNAL___CBRNE_Training_SYGNAL___CBRNE_TrainingUITests.framework */,
+				5B1C6FBADE951C7BB7D3E6D0 /* Pods_SYGNAL___CBRNE_TrainingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		814152E7275745310039AFD4 /* SYGNAL - CBRNE Training */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81415312275745320039AFD4 /* Build configuration list for PBXNativeTarget "SYGNAL - CBRNE Training" */;
+			buildPhases = (
+				948A7A708122EB5CADFBCA6E /* [CP] Check Pods Manifest.lock */,
+				814152E4275745310039AFD4 /* Sources */,
+				814152E5275745310039AFD4 /* Frameworks */,
+				814152E6275745310039AFD4 /* Resources */,
+				2129D98A26DE51F0C34A88DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SYGNAL - CBRNE Training";
+			productName = "SYGNAL - CBRNE Training";
+			productReference = 814152E8275745310039AFD4 /* SYGNAL - CBRNE Training.app */;
+			productType = "com.apple.product-type.application";
+		};
+		814152FD275745320039AFD4 /* SYGNAL - CBRNE TrainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81415315275745320039AFD4 /* Build configuration list for PBXNativeTarget "SYGNAL - CBRNE TrainingTests" */;
+			buildPhases = (
+				95EE88BC0AD519F342DF20D6 /* [CP] Check Pods Manifest.lock */,
+				814152FA275745320039AFD4 /* Sources */,
+				814152FB275745320039AFD4 /* Frameworks */,
+				814152FC275745320039AFD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81415300275745320039AFD4 /* PBXTargetDependency */,
+			);
+			name = "SYGNAL - CBRNE TrainingTests";
+			productName = "SYGNAL - CBRNE TrainingTests";
+			productReference = 814152FE275745320039AFD4 /* SYGNAL - CBRNE TrainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81415308275745320039AFD4 /* SYGNAL - CBRNE TrainingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81415318275745320039AFD4 /* Build configuration list for PBXNativeTarget "SYGNAL - CBRNE TrainingUITests" */;
+			buildPhases = (
+				50649334BCCB109740649F93 /* [CP] Check Pods Manifest.lock */,
+				81415305275745320039AFD4 /* Sources */,
+				81415306275745320039AFD4 /* Frameworks */,
+				81415307275745320039AFD4 /* Resources */,
+				A85D18A2DC0E051CA01C7F64 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8141530B275745320039AFD4 /* PBXTargetDependency */,
+			);
+			name = "SYGNAL - CBRNE TrainingUITests";
+			productName = "SYGNAL - CBRNE TrainingUITests";
+			productReference = 81415309275745320039AFD4 /* SYGNAL - CBRNE TrainingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		814152E0275745310039AFD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					814152E7275745310039AFD4 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					814152FD275745320039AFD4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 814152E7275745310039AFD4;
+					};
+					81415308275745320039AFD4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 814152E7275745310039AFD4;
+					};
+				};
+			};
+			buildConfigurationList = 814152E3275745310039AFD4 /* Build configuration list for PBXProject "SYGNAL - CBRNE Training" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 814152DF275745310039AFD4;
+			productRefGroup = 814152E9275745310039AFD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				814152E7275745310039AFD4 /* SYGNAL - CBRNE Training */,
+				814152FD275745320039AFD4 /* SYGNAL - CBRNE TrainingTests */,
+				81415308275745320039AFD4 /* SYGNAL - CBRNE TrainingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		814152E6275745310039AFD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814152F8275745320039AFD4 /* LaunchScreen.storyboard in Resources */,
+				81415327275759730039AFD4 /* TrackerListTableCell.xib in Resources */,
+				814152F5275745320039AFD4 /* Assets.xcassets in Resources */,
+				814152F3275745310039AFD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814152FC275745320039AFD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81415307275745320039AFD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2129D98A26DE51F0C34A88DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYGNAL - CBRNE Training/Pods-SYGNAL - CBRNE Training-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYGNAL - CBRNE Training/Pods-SYGNAL - CBRNE Training-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SYGNAL - CBRNE Training/Pods-SYGNAL - CBRNE Training-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50649334BCCB109740649F93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948A7A708122EB5CADFBCA6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYGNAL - CBRNE Training-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95EE88BC0AD519F342DF20D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYGNAL - CBRNE TrainingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A85D18A2DC0E051CA01C7F64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests/Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests/Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests/Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		814152E4275745310039AFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8141531E27574E290039AFD4 /* Extension.swift in Sources */,
+				814152EC275745310039AFD4 /* AppDelegate.swift in Sources */,
+				816AA4172761E2DD00605290 /* DevicesModel.swift in Sources */,
+				81415326275759730039AFD4 /* TrackerListTableCell.swift in Sources */,
+				81415323275756580039AFD4 /* AddGasViewController.swift in Sources */,
+				814152EE275745310039AFD4 /* SceneDelegate.swift in Sources */,
+				814153202757562B0039AFD4 /* TrackersListViewController.swift in Sources */,
+				8141532C2757A4E90039AFD4 /* BluetoothListModel.swift in Sources */,
+				8141531C275749E50039AFD4 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814152FA275745320039AFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81415303275745320039AFD4 /* SYGNAL___CBRNE_TrainingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81415305275745320039AFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8141530E275745320039AFD4 /* SYGNAL___CBRNE_TrainingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81415300275745320039AFD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 814152E7275745310039AFD4 /* SYGNAL - CBRNE Training */;
+			targetProxy = 814152FF275745320039AFD4 /* PBXContainerItemProxy */;
+		};
+		8141530B275745320039AFD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 814152E7275745310039AFD4 /* SYGNAL - CBRNE Training */;
+			targetProxy = 8141530A275745320039AFD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		814152F1275745310039AFD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814152F2275745310039AFD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		814152F6275745320039AFD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				814152F7275745320039AFD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81415310275745320039AFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81415311275745320039AFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81415313275745320039AFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8262E6F61369BD57C8E3C521 /* Pods-SYGNAL - CBRNE Training.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MTCL22ATQ4;
+				INFOPLIST_FILE = "SYGNAL - CBRNE Training/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koktech.sygnal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81415314275745320039AFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB75E01CAB3FDE642830021 /* Pods-SYGNAL - CBRNE Training.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = MTCL22ATQ4;
+				INFOPLIST_FILE = "SYGNAL - CBRNE Training/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.koktech.sygnal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81415316275745320039AFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D831A1FF3F9CD65A77F2108 /* Pods-SYGNAL - CBRNE TrainingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 457Q77GP8T;
+				INFOPLIST_FILE = "SYGNAL - CBRNE TrainingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.SYGNAL---CBRNE-TrainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYGNAL - CBRNE Training.app/SYGNAL - CBRNE Training";
+			};
+			name = Debug;
+		};
+		81415317275745320039AFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A9D8CA3B3924743BB10069 /* Pods-SYGNAL - CBRNE TrainingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 457Q77GP8T;
+				INFOPLIST_FILE = "SYGNAL - CBRNE TrainingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.SYGNAL---CBRNE-TrainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYGNAL - CBRNE Training.app/SYGNAL - CBRNE Training";
+			};
+			name = Release;
+		};
+		81415319275745320039AFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF928EFA011569E1F9BF6EDD /* Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 457Q77GP8T;
+				INFOPLIST_FILE = "SYGNAL - CBRNE TrainingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.SYGNAL---CBRNE-TrainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SYGNAL - CBRNE Training";
+			};
+			name = Debug;
+		};
+		8141531A275745320039AFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6E3DC153E98EF03D8CA0D0 /* Pods-SYGNAL - CBRNE Training-SYGNAL - CBRNE TrainingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 457Q77GP8T;
+				INFOPLIST_FILE = "SYGNAL - CBRNE TrainingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.training.SYGNAL---CBRNE-TrainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SYGNAL - CBRNE Training";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		814152E3275745310039AFD4 /* Build configuration list for PBXProject "SYGNAL - CBRNE Training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81415310275745320039AFD4 /* Debug */,
+				81415311275745320039AFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81415312275745320039AFD4 /* Build configuration list for PBXNativeTarget "SYGNAL - CBRNE Training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81415313275745320039AFD4 /* Debug */,
+				81415314275745320039AFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81415315275745320039AFD4 /* Build configuration list for PBXNativeTarget "SYGNAL - CBRNE TrainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81415316275745320039AFD4 /* Debug */,
+				81415317275745320039AFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81415318275745320039AFD4 /* Build configuration list for PBXNativeTarget "SYGNAL - CBRNE TrainingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81415319275745320039AFD4 /* Debug */,
+				8141531A275745320039AFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 814152E0275745310039AFD4 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_SYGNAL___CBRNE_Training {
+  umbrella header "Pods-SYGNAL - CBRNE Training-umbrella.h"
+
+  export *
+  module * { export * }
+}

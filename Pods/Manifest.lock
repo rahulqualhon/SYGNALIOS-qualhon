@@ -1,0 +1,24 @@
+PODS:
+  - iOSDropDown (0.3.4)
+  - IQKeyboardManagerSwift (6.5.6)
+  - TTGSnackbar (1.10.5)
+
+DEPENDENCIES:
+  - iOSDropDown
+  - IQKeyboardManagerSwift
+  - TTGSnackbar
+
+SPEC REPOS:
+  trunk:
+    - iOSDropDown
+    - IQKeyboardManagerSwift
+    - TTGSnackbar
+
+SPEC CHECKSUMS:
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  TTGSnackbar: 2bd245d2bbf83639483410273fd936af0b7ba2a9
+
+PODFILE CHECKSUM: c5134364f1325eb481e0623383c29e30f983193d
+
+COCOAPODS: 1.10.2
